@@ -22,5 +22,8 @@ public class RobotDemo {
         robotPetya.speak("I am very glad to see you!");
         robotSiri.speak("Me too!");
         robotPetya.speak("I'm to tired");
+        //в данном варианте будет ошибка потому что id не инициализировано(не присвоено никакого значения)
+        //System.out.println(robotPetya.id);
+        //System.out.println(robotPetya.id.isEmpty());
     }
 }

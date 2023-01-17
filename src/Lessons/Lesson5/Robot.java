@@ -3,7 +3,7 @@ package Lessons.Lesson5;
 public class Robot {
 
 
-
+    String id;
     String robotName;
     int model;
     boolean isPainter;
