@@ -14,7 +14,7 @@ public class Predstavsya {
         System.out.println("can I ask againe");
 
         //-------правда - лож-------
-
+        //---правда---
         System.out.println("What is yuor age?");
         Scanner scanner2 = new Scanner(System.in);
         int inputInteger = scanner2.nextInt();
