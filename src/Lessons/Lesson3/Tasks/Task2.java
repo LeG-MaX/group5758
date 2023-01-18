@@ -9,7 +9,7 @@ public class Task2 {
         System.out.println(name + "?");
         String podtverjdenie = new String("yes");
         Scanner scanner1 = new Scanner(System.in);
-        System.out.println(podtverjdenie==scanner1);
+        System.out.println(scanner1.equals(podtverjdenie));
 
         System.out.println("---");
 
