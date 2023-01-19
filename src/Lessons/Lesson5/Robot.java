@@ -17,7 +17,12 @@ public class Robot {
         this.isPainter = isPainter;
     }
 
+    public Robot(String robotName) {
+        this.robotName = robotName;
+    }
+
     public void hello(){
+
         System.out.println("Hello");
     }
 
@@ -28,8 +33,14 @@ public class Robot {
         System.out.println("I am " + isPainter + " good painter");
     }
 
+    public void sayYuorName(){
+
+        System.out.println("My name is " + robotName);
+        System.out.println("---");
+    }
+
     public void speak(String messega){
         System.out.println("---------");
-        System.out.println("Robot " + robotName + "say: " + messega);
+        System.out.println("Robot " + robotName + " say: " + messega);
     }
 }
