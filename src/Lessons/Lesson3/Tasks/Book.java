@@ -2,18 +2,15 @@ package Lessons.Lesson3.Tasks;
 
 public class Book {
 
-    String title;
-
-    Book(String bookTitle) {
-        this.title = newTitle();
-    }
-
-    private String newTitle() {
-        return this.title;
-    }
+    private String title;
 
     String getTitle() {
         return this.title;
+    }
+
+    Book(String bookTitle) {
+        this.title = bookTitle;
+
     }
 
 }
