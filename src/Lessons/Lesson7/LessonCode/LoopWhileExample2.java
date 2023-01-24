@@ -11,8 +11,20 @@ public class LoopWhileExample2 {
             int userInput = userInput();
             switch (userInput){
                 case 1:
-
-            }
+                    System.out.println("Your choose is Monday");
+                    break;
+                case 2:
+                    System.out.println("Your choose is Wednesday");
+                    break;
+                case 3:
+                    System.out.println("Your choose is Friday");
+                    break;
+                case 0:
+                    System.out.println("Exit...");
+                    condition = false;
+                    break;
+                default:
+                    System.out.println("Something was wrong ...");
 
             }
         }
@@ -27,5 +39,9 @@ public class LoopWhileExample2 {
         System.out.println("0. Exit");
     }
 
-    public static int
+    public static int userInput(){
+        Scanner scanner = new Scanner(System.in);
+        int userInput = scanner.nextInt();
+        return userInput;
+    }
 }
