@@ -1,4 +1,4 @@
-package Lessons.Lessons6.LessonCode.ConditionOperators;
+package Lessons.Lesson6.LessonCode.ConditionOperators;
 
 import java.util.Scanner;
 public class ConditionsOperation2 {
