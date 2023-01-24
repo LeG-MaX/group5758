@@ -1,4 +1,4 @@
-package Lessons.Lessons6.LessonCode.StaticType;
+package Lessons.Lesson6.LessonCode.StaticType;
 
 public class MathematicUtil {
     public static double circleArea(double radius){

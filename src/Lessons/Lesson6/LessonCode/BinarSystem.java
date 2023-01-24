@@ -1,4 +1,4 @@
-package Lessons.Lessons6.LessonCode;
+package Lessons.Lesson6.LessonCode;
 
 import java.util.Scanner;
 
