@@ -1,6 +1,4 @@
-package Lessons.Lessons6.LessonCode.StaticType;
-
-import Lessons.Lessons6.LessonCode.StaticType.Person;
+package Lessons.Lesson6.LessonCode.StaticType;
 
 public class PersonDemo {
 

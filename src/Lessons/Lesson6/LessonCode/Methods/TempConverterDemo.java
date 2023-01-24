@@ -1,6 +1,4 @@
-package Lessons.Lessons6.LessonCode.Methods;
-
-import Lessons.Lessons6.LessonCode.Methods.Converter;
+package Lessons.Lesson6.LessonCode.Methods;
 
 public class TempConverterDemo {
 

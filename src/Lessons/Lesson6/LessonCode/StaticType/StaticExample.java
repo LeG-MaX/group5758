@@ -1,6 +1,4 @@
-package Lessons.Lessons6.LessonCode.StaticType;
-
-import Lessons.Lessons6.LessonCode.StaticType.MathematicUtil;
+package Lessons.Lesson6.LessonCode.StaticType;
 
 public class StaticExample {
 
