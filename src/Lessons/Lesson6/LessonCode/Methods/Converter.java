@@ -1,4 +1,4 @@
-package Lessons.Lessons6.LessonCode.Methods;
+package Lessons.Lesson6.LessonCode.Methods;
 
 public class Converter {
 

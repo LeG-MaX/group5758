@@ -1,6 +1,6 @@
 package Homeworks.Three;
 
-public class SlojVichUmnDel {
+public class SlojVichUmnDelTask2 {
 
 
     public static void main(String[] args) {

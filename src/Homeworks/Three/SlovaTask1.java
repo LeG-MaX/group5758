@@ -2,7 +2,7 @@ package Homeworks.Three;
 
 import java.util.Scanner;
 
-public class Slova {
+public class SlovaTask1 {
     public static void main(String[] args) {
         System.out.println("введите 2 слова");
         System.out.println("1 слово");
