@@ -14,4 +14,14 @@ public class InputArray {
         }
         return createdArray;
     }
+
+    public int[] randomInput(int range){
+        int size = (int) (Math.random()*range);
+        int[] createdArray = new int[size];
+
+        for (int i = 0; i < createdArray.length; i++) {
+            createdArray[i] = (int) (Math.random()*range*i);
+        }
+        return createdArray;
+    }
 }
