@@ -4,28 +4,23 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Random {
-    public int[] randomInput() {
-        System.out.println("введите размер массива - ");
-        Scanner scanner = new Scanner(System.in);
-        int size = scanner.nextInt();
-        int[] randomArray = new int[size];
-        int x;
 
-        for (int i = 0; i < randomArray.length; i++) {
-            randomArray[i] = (int) (Math.random() * 50 * i);
-
-            for (x=randomArray[i]; x >= 1 && x <= 50; i++) {
-                if (x >= 1 && x <= 50) {
-                    System.out.println(randomArray[i]);
-                    break;
-                } else {
-                    randomArray[i] = (int) (Math.random() * 50 * i);
-                    x =randomArray[i];
-                    i--;
-                }
-
-            }
-        }
-        return randomArray;
+    public int[] createArray (int size){
+        return new int[size];
     }
+    public void randomArray(int[] chisla, int range) {
+
+        for (int i=0; i < chisla.length; i++){
+            chisla[i] = (int) (Math.random()*range);
+            System.out.print(chisla[i]+", ");
+        }
+    }
+    public void randomArrayMinMax(int[] chisla, int rangeMax, int rangeMin) {
+
+        for (int i=0; i < chisla.length; i++){
+            chisla[i] = (int) (rangeMin + (Math.random()*rangeMax-rangeMin));
+            System.out.print(chisla[i]+", ");
+        }
+    }
+
 }

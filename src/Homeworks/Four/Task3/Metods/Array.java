@@ -17,10 +17,12 @@ public class Array {
     public int[] arrayWithNMinusOne() {
         Scanner scanner = new Scanner(System.in);
         int N = scanner.nextInt();
-        int size = N-1;
+        int size = N;
         int[] arrayN = new int[size];
-        for (int i = 0; (i < arrayN.length) && (i != (arrayN.length-1)) ; i++) {
-            arrayN[i] = 1+i;
+        for (int i = 0; i < arrayN.length ; i++) {
+            if (i != (size-1)) {
+                arrayN[i] = 1+i;
+            }
         }
         return arrayN;
     }
