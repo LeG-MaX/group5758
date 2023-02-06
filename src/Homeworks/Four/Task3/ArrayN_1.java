@@ -20,6 +20,7 @@ import java.util.Random;
 
 public class ArrayN_1 {
     public static void main(String[] args) {
+        System.out.println("введите число N");
         Array array = new Array();
         int[] NMinusOdin = array.arrayWithNMinusOne();
         System.out.println(Arrays.toString(NMinusOdin));
