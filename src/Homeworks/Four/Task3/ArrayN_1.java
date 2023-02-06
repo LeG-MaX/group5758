@@ -37,7 +37,7 @@ public class ArrayN_1 {
         System.out.println("Пропущенное число - " + missingElemet);
         // вариает вызова метода из аrrау
 //
-//        int missingElement = array.missingNumber(NMinusOdin[i]);
+//        int missingElement = array.missingNumber(NMinusOdin[i]); //ТУТ пробовал и (int[] NMinusOdin)
 
 
 
