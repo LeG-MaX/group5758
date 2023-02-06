@@ -35,7 +35,7 @@ public class ArrayN_1 {
         }
         int missingElemet = summaAllElements - summaWhithoutOneElement;
         System.out.println("Пропущенное число - " + missingElemet);
-        // вариает вызова метода из аррау
+        // вариает вызова метода из аrrау
 //
 //        int missingElement = array.missingNumber(NMinusOdin[i]);
 
