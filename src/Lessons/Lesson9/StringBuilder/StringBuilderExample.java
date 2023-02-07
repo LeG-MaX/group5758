@@ -20,5 +20,6 @@ public class StringBuilderExample {
         System.out.println(stringBuilder);
         System.out.println(stringBuilder.length());
         System.out.println(stringBuilder.reverse());
+
     }
 }
