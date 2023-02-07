@@ -21,7 +21,7 @@ public class TaskZvezdochka {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         int hours = n / 3600;
-        if (n < 0){
+        if (n < 0) {
             System.out.println("Рабочий день уже закончился...хватит работать домой иди! :)");
         } else if (n >28800) {
             System.out.println("Выпей кофе, отдохни с дороги! Рабочий дeнь еще не начался");
